@@ -6,10 +6,12 @@
   padding: 0;
 }
 #upper-part {
-  position: fixed;
-  width: 100%;
-  height: 5.5vh;
-  z-index: 2;
+  background-color: white;
+  padding: 5px;
+  margin: 0;
+}
+.lower-part {
+  background: rgb(0 0 0 / 25%);
 }
 .upper {
   display: flex;
@@ -34,15 +36,14 @@
   background-color: #0663aab7;
 }
 nav {
-  background: rgb(0 0 0 / 25%);
   height: 70px;
   width: 100%;
   position: fixed;
-  margin-top: 50px;
+
   z-index: 2;
 }
 .logo-class {
-  padding: 19px 25px;
+  padding: 11px 14%;
 }
 nav ul {
   float: right;
@@ -67,7 +68,7 @@ nav ul li a {
   color: white;
   float: right;
   line-height: 80px;
-  margin-right: 15px;
+  margin-right: 7%;
   cursor: pointer;
   display: none;
 }
@@ -96,6 +97,7 @@ nav ul li a {
 }
 .content p {
   text-align: justify;
+  padding-right: 4%;
 }
 span {
   color: rgb(141 181 241);
@@ -164,8 +166,8 @@ span {
 .mid-part2 img {
   padding-bottom: 10px;
 }
-.part2-img img {
-  padding-left: 20px;
+.part2-img {
+  padding-right: 3%;
 }
 .mid-part1-img {
   height: max-content;
@@ -175,12 +177,15 @@ span {
   .checkbtn {
     display: inline-block;
   }
+  .logo-class {
+    padding: 8px 4%;
+  }
   ul {
     position: fixed;
     width: 100%;
-    height: 35vh;
+    height: 32vh;
     background: rgb(0 0 0 / 25%);
-    top: 119px;
+    top: 17.2%;
     left: -100%;
     text-align: center;
     transition: all 0.5s;
