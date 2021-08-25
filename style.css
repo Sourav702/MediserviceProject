@@ -233,6 +233,9 @@ span {
   .part-1 {
     padding-left: 0;
   }
+  .content-text {
+    margin-left: 5%;
+  }
   .more {
     padding-top: 10px;
   }
@@ -246,7 +249,7 @@ span {
     font-size: 0.8rem;
   }
   .mid-part1 {
-    margin-left: 11%;
+    margin-left: 5%;
     margin-top: 2%;
   }
   .part2-img {
