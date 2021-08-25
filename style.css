@@ -185,11 +185,15 @@ span {
     text-align: center;
     transition: all 0.5s;
   }
-  .logo-class {
+  /* .logo-class {
     padding-top: 18px;
     padding-left: 8px;
     padding-bottom: 0;
     padding-right: 0;
+  } */
+  .logo {
+    display: flex;
+    align-items: center;
   }
   nav ul li {
     display: block;
@@ -266,6 +270,7 @@ span {
     flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
+    width: 100% !important;
   }
   .containerr .d-flex {
     justify-content: center;
