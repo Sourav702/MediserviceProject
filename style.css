@@ -20,7 +20,7 @@
 }
 .upper .text {
   align-self: center;
-  padding-left: 3%;
+  padding-left: 2.5%;
 }
 #upper-btn {
   background-color: rgb(141 181 241);
@@ -28,7 +28,7 @@
   border-radius: 40px;
   width: 172px;
   height: 30px;
-  margin-right: 3%;
+  margin-right: 1.5%;
   outline: none;
   border: none;
 }
