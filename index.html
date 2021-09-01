@@ -22,26 +22,28 @@
     <!-- start navbar -->
     <nav>
       <div id="upper-part">
-        <div class="upper">
+        <div class="upper container">
           <div class="text">We are open 24 hrs</div>
           <button id="upper-btn">Make an appointment</button>
         </div>
       </div>
 
       <div class="lower-part">
-        <input type="checkbox" id="check" />
-        <label for="check" class="checkbtn">
-          <i class="fas fa-bars"></i>
-        </label>
-        <label class="logo"
-          ><img src="./assets/logo.png" class="logo-class" alt=""
-        /></label>
-        <ul>
-          <li><a class="active" href="#home">Home</a></li>
-          <li><a href="#service">Services</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
+        <div class="lower container">
+          <input type="checkbox" id="check" />
+          <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+          </label>
+          <label class="logo"
+            ><img src="./assets/logo.png" class="logo-class" alt=""
+          /></label>
+          <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
 
@@ -49,92 +51,96 @@
     <!-- midpart start -->
     <div class="main-container">
       <div class="top" id="home"></div>
-      <div class="mid-container d-flex flex-column">
-        <div class="mid-part1 d-flex flex-row" id="about">
-          <h3>Why Choose Us</h3>
-          <img src="./assets/ecg.png" alt="" class="mid-part1-img" />
-        </div>
-        <div class="mid-part2 d-flex flex-row">
-          <div class="content">
-            <p class="content-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-              veritatis omnis, molestiae necessitatibus velit, sed impedit ab,
-              autem deleniti quia et facere! Tenetur quis at inventore sint
-              nesciunt soluta minus voluptatum quisquam, sed libero. Ipsam
-              laudantium voluptas itaque error eum culpa alias aperiam
-              voluptatem saepe facilis, commodi similique exercitationem?Lorem
-              ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-              veritatis omnis, moleslaudantium voluptas itaque error eum culpa
-              alias aperiam voluptatem saepe facilis, commodi similique
-              exercitationem?Lorem ipsum dolor
-            </p>
+      <div class="container">
+        <div class="mid-container d-flex flex-column">
+          <div class="mid-part1 d-flex flex-row" id="about">
+            <h3>Why Choose Us</h3>
+            <img src="./assets/ecg.png" alt="" class="mid-part1-img" />
           </div>
-          <div class="part2-img w-25">
-            <img src="./assets/stetho.png" alt="" />
+          <div class="mid-part2 d-flex flex-row">
+            <div class="content">
+              <p class="content-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Explicabo veritatis omnis, molestiae necessitatibus velit, sed
+                impedit ab, autem deleniti quia et facere! Tenetur quis at
+                inventore sint nesciunt soluta minus voluptatum quisquam, sed
+                libero. Ipsam laudantium voluptas itaque error eum culpa alias
+                aperiam voluptatem saepe facilis, commodi similique
+                exercitationem?Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Explicabo veritatis omnis, moleslaudantium
+                voluptas itaque error eum culpa alias aperiam voluptatem saepe
+                facilis, commodi similique exercitationem?Lorem ipsum dolor
+              </p>
+            </div>
+            <div class="part2-img w-25">
+              <img src="./assets/stetho.png" alt="" />
+            </div>
           </div>
-        </div>
-        <div
-          class="containerr d-flex flex-row justify-content-around flex-wrap"
-          id="service"
-        >
-          <div class="item1 d-flex flex-row mid-child">
-            <img src="./assets/tab.png" alt="" />
-            <p>Lorem, ipsum.</p>
-          </div>
-          <div class="item2 d-flex flex-row mid-child">
-            <img src="./assets/tab.png" alt="" />
-            <p>Lorem, ipsum.</p>
-          </div>
-          <div class="item3 d-flex flex-row mid-child">
-            <img src="./assets/tab.png" alt="" />
-            <p>Lorem, ipsum.</p>
-          </div>
-          <div class="item4 d-flex flex-row mid-child">
-            <img src="./assets/tab.png" alt="" />
-            <p>Lorem, ipsum.</p>
+          <div
+            class="containerr d-flex flex-row justify-content-around flex-wrap"
+            id="service"
+          >
+            <div class="item1 d-flex flex-row mid-child">
+              <img src="./assets/tab.png" alt="" />
+              <p>Lorem, ipsum.</p>
+            </div>
+            <div class="item2 d-flex flex-row mid-child">
+              <img src="./assets/tab.png" alt="" />
+              <p>Lorem, ipsum.</p>
+            </div>
+            <div class="item3 d-flex flex-row mid-child">
+              <img src="./assets/tab.png" alt="" />
+              <p>Lorem, ipsum.</p>
+            </div>
+            <div class="item4 d-flex flex-row mid-child">
+              <img src="./assets/tab.png" alt="" />
+              <p>Lorem, ipsum.</p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="end py-5">
-        <div class="end-1">
-          <div class="icon-1 top-icon">
-            <img src="./assets/ecg.png" alt="" />
-          </div>
-          <div class="end-1-text">
-            <h3><span>Our Departments</span></h3>
-          </div>
-          <div class="icon-2 top-icon">
-            <img src="./assets/ecg.png" alt="" />
-          </div>
-        </div>
-        <div class="end-2">
-          <div class="part-1 child">
-            <div class="part-icon">
-              <img src="./assets/medicine.png" alt="" />
+      <div class="container">
+        <div class="end py-5">
+          <div class="end-1">
+            <div class="icon-1 top-icon">
+              <img src="./assets/ecg.png" alt="" />
             </div>
-            <div class="part-text"><span>Medicine</span></div>
-          </div>
-          <div class="part-2 child">
-            <div class="part-icon">
-              <img src="./assets/brain.png" alt="" />
+            <div class="end-1-text">
+              <h3><span>Our Departments</span></h3>
             </div>
-            <div class="part-text"><span>Neurology</span></div>
-          </div>
-          <div class="part-3 child">
-            <div class="part-icon">
-              <img src="./assets/Gastroenterology_icon.png" alt="" />
+            <div class="icon-2 top-icon">
+              <img src="./assets/ecg.png" alt="" />
             </div>
-            <div class="part-text"><span>Gastrology</span></div>
           </div>
-          <div class="part-4 child">
-            <div class="part-icon">
-              <img src="./assets/cardiology-icon-png-14.png" alt="" />
+          <div class="end-2">
+            <div class="part-1 child">
+              <div class="part-icon">
+                <img src="./assets/medicine.png" alt="" />
+              </div>
+              <div class="part-text"><span>Medicine</span></div>
             </div>
-            <div class="part-text"><span>Cardiology</span></div>
-          </div>
-          <div class="part-5">
-            <div class="part-icon more">
-              <img src="./assets/more.png" alt="" />
+            <div class="part-2 child">
+              <div class="part-icon">
+                <img src="./assets/brain.png" alt="" />
+              </div>
+              <div class="part-text"><span>Neurology</span></div>
+            </div>
+            <div class="part-3 child">
+              <div class="part-icon">
+                <img src="./assets/Gastroenterology_icon.png" alt="" />
+              </div>
+              <div class="part-text"><span>Gastrology</span></div>
+            </div>
+            <div class="part-4 child">
+              <div class="part-icon">
+                <img src="./assets/cardiology-icon-png-14.png" alt="" />
+              </div>
+              <div class="part-text"><span>Cardiology</span></div>
+            </div>
+            <div class="part-5">
+              <div class="part-icon more">
+                <img src="./assets/more.png" alt="" />
+              </div>
             </div>
           </div>
         </div>
@@ -142,8 +148,9 @@
       <br />
       <!-- midpart end -->
       <!-- footer start -->
-      <hr />
-      <div class="footer">
+
+      <div class="footer container">
+        <hr />
         <p class="footer-text">
           Copyright © 2019 yummy crossing All rights reserved .
         </p>

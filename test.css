@@ -20,6 +20,7 @@
 }
 .upper .text {
   align-self: center;
+  padding-left: 2.5%;
 }
 #upper-btn {
   background-color: rgb(141 181 241);
@@ -27,7 +28,7 @@
   border-radius: 40px;
   width: 172px;
   height: 30px;
-
+  margin-right: 2%;
   outline: none;
   border: none;
 }
@@ -42,14 +43,16 @@ nav {
   z-index: 2;
 }
 .logo-class {
-  padding: 11px 0;
+  padding: 11px 16%;
 }
 nav ul {
   float: right;
+  margin-right: 20px;
 }
 nav ul li {
   display: inline-block;
   line-height: 80px;
+  margin: 0 5px;
 }
 nav ul li a {
   color: white;
@@ -128,7 +131,12 @@ span {
   display: flex;
   padding-bottom: 15px;
 }
-
+.part-1 {
+  padding-left: 35px;
+}
+.part-5 {
+  padding-right: 35px;
+}
 .more {
   padding-top: 50%;
 }
@@ -152,18 +160,18 @@ span {
   margin-right: 20px;
 }
 .mid-container {
+  margin-left: 4%;
   margin-top: 2%;
 }
 .mid-part2 img {
   padding-bottom: 10px;
 }
-
+.part2-img {
+  padding-right: 3%;
+}
 .mid-part1-img {
   height: max-content;
   padding: 1.2%;
-}
-hr {
-  width: 100%;
 }
 @media (max-width: 767px) {
   .checkbtn {
