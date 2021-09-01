@@ -27,7 +27,7 @@
   border-radius: 40px;
   width: 172px;
   height: 30px;
-
+  white-space: nowrap;
   outline: none;
   border: none;
 }
