@@ -170,7 +170,7 @@ hr {
     display: inline-block;
   }
   .logo-class {
-    padding: 8px 4%;
+    padding: 8px 0%;
   }
   ul {
     position: fixed;
@@ -230,9 +230,7 @@ hr {
   .part-1 {
     padding-left: 0;
   }
-  .content-text {
-    margin-left: 5%;
-  }
+
   .more {
     padding-top: 10px;
   }
@@ -246,7 +244,6 @@ hr {
     font-size: 0.8rem;
   }
   .mid-part1 {
-    margin-left: 5%;
     margin-top: 2%;
   }
   .part2-img {
@@ -260,7 +257,7 @@ hr {
   }
   .mid-child {
     margin-right: 1%;
-    width: 46%;
+    width: 48%;
   }
   .mid-container {
     margin-left: 0;
@@ -272,11 +269,17 @@ hr {
     margin-right: auto;
     width: 100% !important;
   }
-  .containerr .d-flex {
-    justify-content: center;
-  }
+
   .mid-child img {
     margin-right: 10px;
+  }
+  .item1,
+  .item3 {
+    justify-content: flex-start;
+  }
+  .item2,
+  .item4 {
+    justify-content: flex-end;
   }
 }
 @media (min-width: 1025px) {
